@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Mobil</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-brand">My Cars </div>
+        <ul id="navbarMenu" class="navbarMenu">
+            <li class="list"><a href="#home" class="a">Home</a></li>
+            <li class="list"><a href="#products" class="a">Produk</a></li>
+            <li class="list"><a href="#about" class="a">Tentang Kami</a></li>
+            <li class="list"><a href="#contact" class="a">Kontak</a></li>
+        </ul>
+        <div id="bx_bx_menu"><i class='bx bx-menu'></i></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Selamat Datang di <span>My Cars</span></h1>
+        <p>Temukan mobil impian Anda di sini</p>
+        <button class="buton" onclick="showProducts()">Lihat Produk</button>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Daftar Mobil</h2>
+        <div id="car-list" class="car-list">
+            <!-- Data mobil akan ditambahkan melalui JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>Tentang Kami</h2>
+        <p>Kami adalah dealer mobil yang menyediakan berbagai merek dan model mobil untuk kebutuhan Anda.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@mobilku.com | Telepon: 0812-3456-7890</p>
+    </section>
+
+    <script src="pengkondisian.js"></script>
+</body>
+</html>
